@@ -57,7 +57,7 @@ int removeItem(CArray *arr, int position)
 			return SUCCESS;
 		}
 		else
-		return POSITION_EMPTY;
+		return POSITION_NOT_INIT;
 	}
 	return INVALID_POSITION;
 }
